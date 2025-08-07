@@ -24,6 +24,17 @@ input[type="text"] {
     font-size: 1.2em;
 }
 
-.add-btn {
-    height: 100%;
+.todos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.completed {
+    text-decoration: line-through;
 }
